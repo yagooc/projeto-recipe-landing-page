@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 15px;
+}
+
+p {
+	color: var(--wenge-brown);
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+ul li {
+	color: var(--wenge-brown);
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.8;
+	list-style-position: inside;
+}
+
+ul li span {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 700;
+}
+
+body {
+	background-color: var(--eggshell);
+}
+
+hr {
+	border-color: var(--white);
+	border-width: 0.5px;
+	margin: 30px 0;
+}
+
+.container {
+	background-color: var(--white);
+	border-radius: 20px;
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+	max-width: 650px;
+	padding: 40px;
+}
+
+.container .imagem {
+	padding-bottom: 20px;
+}
+
+.container h1 {
+	font-family: "Young Serif", serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.container p.desc {
+	padding-bottom: 20px;
+}
+
+.container .preparation {
+	background-color: var(--rose-white);
+	padding: 30px;
+}
+
+.container .preparation h3 {
+	color: var(--dark-raspberry);
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	padding-bottom: 10px;
+}
+
+.container .ingredients {
+	padding-top: 20px;
+}
+
+.container .ingredients h2 {
+	color: var(--nutmeg);
+	font-family: "Young Serif", serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.container .ingredients ul li {
+	font-weight: 400;
+}
+
+.container .instructions h2 {
+	color: var(--nutmeg);
+	font-family: "Young Serif", serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.container .instructions .recipe-step .item {
+	display: flex;
+	font-weight: 500;
+	padding-left: .5rem;
+	margin-bottom: .5rem;
+}
+
+.container .instructions .recipe-step .item .num {
+	color: var(--nutmeg);
+	margin-right: 1rem;
+	font-family: "Outfit", sans-serif;
+	font-weight: 700;
+}
+
+.container .instructions .recipe-step span {
+	font-family: "Outfit", sans-serif;
+	font-weight: 700;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.container .nutrition h2 {
+	color: var(--nutmeg);
+	font-family: "Young Serif", serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.container .nutrition p.descNutri {
+	margin-bottom: 40px;
+}
+
+.container .nutrition .calories {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 20px;
+}
+
+.container .nutrition .carbs {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 20px;
+}
+
+.container .nutrition .protein {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 20px;
+}
+
+.container .nutrition .fat {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 20px;
+}
+
+.container .nutrition p.cor {
+	color: var(--nutmeg);
+	font-weight: 700;
+}
+
+.container .nutrition hr {
+	margin: 20px 0;
+}
