@@ -49,7 +49,7 @@ hr {
 	border-radius: 20px;
 	display: grid;
 	grid-template-columns: 1fr;
-	margin: 0 auto;
+	margin: 40px auto;
 	max-width: 650px;
 	padding: 40px;
 }
@@ -174,4 +174,34 @@ hr {
 
 .container .nutrition hr {
 	margin: 20px 0;
+}
+
+.attribution {
+	font-size: 16px;
+	text-align: center;
+    font-family: 'Outfit';
+    font-weight: 600;
+    padding: 0 20px 40px 20px;
+}
+
+.attribution a {
+	text-decoration: none;
+    background: var(--light-grey);
+    color: var(--dark-charcoal);
+}
+
+.attribution a:hover {
+    color: var(--dark-raspberry);
+}
+
+@media (max-width: 504px) {
+	.container h1 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 707px) {
+	.container p {
+		text-align: justify;
+	}
 }
